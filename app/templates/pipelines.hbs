@@ -1,0 +1,13 @@
+<div class="mdl-cell mdl-cell--12-col">
+<h2>List of Pipelines</h2>
+</div>
+
+{{#each model as |pipeline|}}
+
+  <div class="mdl-cell mdl-cell--4-col">
+    {{pipeline-view pipeline=pipeline}}
+  </div>
+
+{{/each}}
+
+{{outlet}}

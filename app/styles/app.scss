@@ -1,1 +1,11 @@
 @import 'material-design-lite';
+
+.pipeline-card {
+    width: 100%;
+}
+
+.step-card {
+    margin: 8px 0;
+    width: 100%;
+    min-height: 0;
+}
