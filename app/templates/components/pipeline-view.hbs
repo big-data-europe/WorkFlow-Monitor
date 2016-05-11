@@ -1,5 +1,5 @@
-{{#mdl-card title=title classNames="pipeline-card"}}
-  <div class="mdl-card__supporting-text">
+{{#md-card title=title classNames="pipeline-card"}}
+  {{#md-card-content}}
     <dl style="margin: 0;">
       <dt>Description</dt>
       <dd>
@@ -17,8 +17,8 @@
         {{#if pipeline.steps}}
 
           {{#each pipeline.steps as |step|}}
-            {{#mdl-card title=step.title classNames="step-card"}}
-              <div class="mdl-card__supporting-text">
+            {{#md-card title=step.title classNames="step-card"}}
+              {{#md-card-content}}
                 <dl style="margin: 0;">
                   <dt>Description</dt>
                   <dd>
@@ -53,8 +53,8 @@
                     {{/if}}
                   </dd>
                 </dl>
-              </div>
-            {{/mdl-card}}
+              {{/md-card-content}}
+            {{/md-card}}
           {{/each}}
 
         {{else}}
@@ -63,5 +63,5 @@
 
       </dd>
     </dl>
-  </div>
-{{/mdl-card}}
+  {{/md-card-content}}
+{{/md-card}}

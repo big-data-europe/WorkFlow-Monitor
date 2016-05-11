@@ -1,4 +1,14 @@
-@import 'material-design-lite';
+// Fix for Roboto font path
+$roboto-font-path: '../assets/';
+
+// Materialize styles
+@import "materialize";
+
+// ember-cli-materialize styles
+@import 'ember-cli-materialize';
+
+// Custom color settings go here
+//$primary-color: color("pink", "lighten-2");
 
 .pipeline-card {
     width: 100%;
