@@ -1,5 +1,19 @@
-<div class="md-grid">
-
-  {{outlet}}
-
+<div class="navbar-fixed">
+  {{#md-navbar name='BDE Pipeline Monitor' homeRoute='application'}}
+    {{#link-to 'pipelines' tagName='li'}}
+      {{link-to 'Pipelines' 'pipelines'}}
+    {{/link-to}}
+  {{/md-navbar}}
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      {{outlet}}
+    </div>
+  </div>
+</div>
+
+{{!-- ember-cli-materialize modal container --}}
+{{md-modal-container}}
+
