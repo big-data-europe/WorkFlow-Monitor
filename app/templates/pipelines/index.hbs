@@ -7,7 +7,7 @@
 	  {{pipeline.description}}
 	{{/md-card-content}}
 	{{#md-card-action}}
-	  <a {{action 'monitor' pipeline}}>Monitor</a>
+	  {{#link-to 'pipelines.steps' pipeline}}Monitor{{/link-to}}
 	{{/md-card-action}}
       {{/md-card}}
     {{/each}}

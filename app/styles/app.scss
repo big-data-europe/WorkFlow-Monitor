@@ -13,12 +13,13 @@ $card-link-color-light: lighten($secondary-color, 20%) !default;
     cursor: pointer;
 }
 
-.pipeline-card {
-    width: 100%;
-}
 
-.step-card {
-    margin: 8px 0;
-    width: 100%;
-    min-height: 0;
+.card {
+
+    .badge {
+	background-color: $badge-bg-color;
+	color: white;
+	top: 15px;
+    }
+
 }
