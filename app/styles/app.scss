@@ -22,4 +22,13 @@ $card-link-color-light: lighten($secondary-color, 20%) !default;
 	top: 15px;
     }
 
+    i.status-icon {
+	background-color: $primary-color;
+	color: white;
+    }
+
+    .card-action a:not(.btn):not(.btn-large):not(.btn-floating).disabled {
+	color: color("grey", "base");
+	cursor: default;
+    }
 }

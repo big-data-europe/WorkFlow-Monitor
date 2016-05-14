@@ -1,0 +1,14 @@
+{{#md-card}}
+  {{md-badge text=step.code}}
+  {{#md-card-content}}
+    <span class="card-title black-text">
+      <i class="material-icons status-icon small circle">{{statusIcon}}</i>
+      {{step.title}}
+    </span>
+    <p>{{step.description}}</p>
+  {{/md-card-content}}
+  {{#md-card-action}}
+    <a class="{{unless userCanFinish 'disabled'}}" {{action 'finish' step}}>Finish</a>
+  {{/md-card-action}}
+{{/md-card}}
+
