@@ -1,5 +1,5 @@
 {
-  "name": "pipelines-viewer",
+  "name": "pipeline-monitor",
   "version": "0.1.0",
   "description": "Application to monitor BDE pipelines",
   "private": true,
