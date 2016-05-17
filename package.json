@@ -1,7 +1,7 @@
 {
   "name": "pipelines-viewer",
   "version": "0.0.0",
-  "description": "Small description for pipelines-viewer goes here",
+  "description": "Application to monitor BDE pipelines",
   "private": true,
   "directories": {
     "doc": "doc",
