@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'pipelines-viewer',
+    modulePrefix: 'pipeline-monitor',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
