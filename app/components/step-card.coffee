@@ -3,8 +3,11 @@
 StepCardComponent = Ember.Component.extend
   statusIcon: Ember.computed 'step.status', ->
     switch @get('step.status')
+      when 'starting' then 'hourglass_empty'
       when 'running' then 'play_arrow'
+      when 'ready' then 'swap_horiz'
       when 'done' then 'done'
+      when 'failed' then 'bug_report'
       else 'snooze'
   userCanFinish: Ember.computed 'step.status', ->
     @get('step.status') == 'not_started'
