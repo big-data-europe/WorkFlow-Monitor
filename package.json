@@ -1,6 +1,6 @@
 {
   "name": "pipeline-monitor",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Application to monitor BDE pipelines",
   "private": true,
   "directories": {
